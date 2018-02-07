@@ -318,11 +318,11 @@ $(function(){
 			//上面的li生成函数
 			function scWz(bb){
 				for(var i=0;i<arr[bb].gs;i++){
-				$('.wz').append('<li></li>');
+					$('.wz').append('<li></li>');
+					var wzwidth=($('.wz').width())/2;
+					$('.wz').css('marginLeft',-wzwidth+'px');
 				}
-				var wzwidth=($('.wz').width())/2;
-				console.log($('.wz').width())
-				$('.wz').css('marginLeft',-wzwidth+'px');
+				
 			};
 			function bt(bb){
 				$('.heder').html(arr[bb].title)
