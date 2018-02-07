@@ -320,9 +320,9 @@ $(function(){
 				for(var i=0;i<arr[bb].gs;i++){
 				$('.wz').append('<li></li>');
 				}
-				var wzwidth=($('.content').width()-$('.wz').width())/70;
-				console.log($('.content').width())
-				$('.wz').css('marginLeft',wzwidth+'rem');
+				var wzwidth=($('.wz').width())/2;
+				console.log($('.wz').width())
+				$('.wz').css('marginLeft',-wzwidth+'px');
 			};
 			function bt(bb){
 				$('.heder').html(arr[bb].title)

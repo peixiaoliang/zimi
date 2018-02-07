@@ -192,7 +192,7 @@ html,body{
  .wz{
  	position: absolute;
  	top:4.35rem;
- 	left: 0rem;
+ 	left: 50%;
 
  		}
  .wz li{
@@ -407,7 +407,7 @@ html,body{
     font-size: 0.5rem;
     font-weight: bold;
     position: absolute;
-    top: 42.5%;
+    top: 41.5%;
     margin-left: 0.8rem;
     left: 50%;
     z-index: 1003;
@@ -437,7 +437,7 @@ html,body{
 	font-size: 0.5rem;
 	font-weight: bold;
 	position: absolute;
- 	top:2.05rem;
+ 	top:2rem;
  	margin-left:0.53rem;
  	left:50%;
 }
