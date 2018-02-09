@@ -37,5 +37,11 @@ $(function(){
 	$('.lose_try_again').click(function(){
 		location.href='index.html';
 	})
+	$('.my_gifts').click(function(){
+		 $('.tips3').css('display','block');
+	})
+	$('.return_index').click(function(){
+		 $('.tips3').css('display','none');
+	})
 	
 })

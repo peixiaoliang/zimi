@@ -232,7 +232,7 @@ html,body{
  	background: url(../images/confirm_btm.png) no-repeat;
  	background-size: 100% 100%;
  	position: absolute;
- 	top:11.01rem;
+ 	top:10.99rem;
  	right: 1.28rem;
  	z-index: 100;
  }
@@ -243,7 +243,7 @@ html,body{
  	background:url(../images/delet_btm.png) no-repeat;
  	background-size: 100% 100%;
  	position: absolute;
- 	top:11.01rem;
+ 	top:10.99rem;
  	right: 4.2rem;
  	z-index: 100;
  }
@@ -432,11 +432,11 @@ html,body{
 	}
 .riddles_prize .fenshu{
 	color: #C1032F;
-    font-size: 0.5rem;
+    font-size: 0.56rem;
     font-weight: bold;
     position: absolute;
-    top: 41.5%;
-    margin-left: 0.8rem;
+    top: 2.58rem;
+    margin-left: 0.76rem;
     left: 50%;
     z-index: 1003;
 }
@@ -462,11 +462,11 @@ html,body{
 }
 .riddles_wrong .fenshu{
 	color: #C1032F;
-	font-size: 0.5rem;
+	font-size: 0.6rem;
 	font-weight: bold;
 	position: absolute;
- 	top:2rem;
- 	margin-left:0.53rem;
+ 	top:1.9rem;
+ 	margin-left:0.5rem;
  	left:50%;
 }
 .riddles_wrong .try_again{
