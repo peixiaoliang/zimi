@@ -2,13 +2,13 @@ $(function(){
 	//数据库
 			//-------------------------------------
 			var arrs=[{
-				title:'谜目：打四字歇后语',
+				title:'url(./temp/t1.png) no-repeat',
 				data:'url(./temp/1.png) no-repeat',
 				wz:['各','显','神','通'],
 				gs:4
 			},
 			{
-				title:'谜目：打四字歇后语',
+				title:'url(./temp/t1.png) no-repeat',
 				data:'url(./temp/2.png) no-repeat',
 				wz:['双','喜','临','门'],
 				gs:4
@@ -326,13 +326,16 @@ $(function(){
 				
 			};
 			function bt(bb){
-				$('.heder').html(arr[bb].title)
+				// $('.heder').html(arr[bb].title)
+				$('.heder').css('background',arr[bb].title);
+				$('.heder').css('background-size','100% 100%');
 			};
 		//图片地址切换
 			function img(bb){
 				$('.sl').html(bb+1)
 				$('.img').css('background',arr[bb].data)
-				$('.img').css('background-size','100% 100%')
+				$('.img').css('background-size','120% 120%');
+				$('.img').css('background-position','center');
 			};
 			
 			//下面的html点击总函数
