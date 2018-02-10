@@ -4,10 +4,16 @@ body, ul, li, h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
-body {
+/*body {
   font-family: '微软雅黑';
+}*/
+@font-face {
+  font-family: '方正粗雅宋简体.TTF';
+  src: url(方正粗雅宋简体.TTF);
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+201c, U+201d;
 }
-
 ul, li, h1, h2, h3, h4, h5, h6, p {
   list-style: none;
 }
@@ -159,8 +165,9 @@ html,body{
 	color: #E8C473;
 	font-size: 0.4rem;
 	position: absolute;
-	top: 0.15rem;
+	top: 0.2rem;
 	z-index: 10;
+	font-weight: 700;
 }
 .content{
 	width:11rem;
@@ -188,6 +195,7 @@ html,body{
  	text-align: center;
  	color: #C20430;
  	z-index: 2;
+ 	font-weight: 700;
  }
  .wz{
  	position: absolute;
@@ -197,14 +205,14 @@ html,body{
  .wz li{
  	float: left;
  	position: relative;
- 	margin-right: 0.066666rem;
+ 	margin: 0rem 0.025rem;
  	width:1.6rem;
  	height:1.6rem;
  	line-height:1.6rem;
  	color: #C20430;
  	text-align: center;
  	font-size: 0.9rem;
- 	font-weight: bold;
+ 	font-weight: bolder;
  }
  .wz1{
  	width: 9rem;
@@ -225,6 +233,7 @@ html,body{
  	color: #C69747;
  	font-size: 0.6rem;
  	text-align: center;
+ 	font-weight: 700;
  }
  .next{
  	width: 2.9rem;

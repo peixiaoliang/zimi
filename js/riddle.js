@@ -319,7 +319,8 @@ $(function(){
 			function scWz(bb){
 				for(var i=0;i<arr[bb].gs;i++){
 					$('.wz').append('<li></li>');
-					var wzwidth=($('.wz').width())/2;
+					var wzwidth= Math.ceil(($('.wz').width())/2);
+					console.log($('.wz').width())
 					$('.wz').css('marginLeft',-wzwidth+'px');
 				}
 				
