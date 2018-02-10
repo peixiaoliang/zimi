@@ -378,7 +378,6 @@ $(function(){
 				img(bb)
 				if($('.sl').text()>'5'){
 					if(fenshu>=3){
-						console.log(fenshu)
 						$('.riddle').css('display','none');
 						$('.riddles_prize').css('display','block');
 						// location.href='win.html';
@@ -476,6 +475,9 @@ $(function(){
 				$(this).removeClass('active');
 				$(this).css({'background':""});
 				b--
+				if(b<0){
+					b=0;
+				}
 				for(var i=0;i<$(".wz1 li").length;i++){
 					if($(".wz1 li").eq(i).html()==_thisHtml){
 						$('wz li').eq(i).html('');
@@ -498,7 +500,10 @@ $(function(){
 				$('.wz .active:last').html('');
 				$('.wz .active:last').css({'background':""});
 				$('.wz .active:last').removeClass('active');
-				b--
+				b--;
+				if(b<0){
+					b=0;
+				}
 				for(var i=0;i<$(".wz1 li").length;i++){
 					if($(".wz1 li").eq(i).html()==_thisHtml){
 						$('wz li').eq(i).html('');

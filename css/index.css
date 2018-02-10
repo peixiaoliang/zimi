@@ -8,8 +8,12 @@ body, ul, li, h1, h2, h3, h4, h5, h6, p {
   font-family: '微软雅黑';
 }*/
 @font-face {
-  font-family: '方正粗雅宋简体.TTF';
-  src: url(方正粗雅宋简体.TTF);
+  font-family: 'FZCYSJW';
+  src: url(FZCYSJW.TTF);
+  src: url('FZCYSJW.eot?#iefix') format('embedded-opentype'), 
+       url('FZCYSJW.woff') format('woff'), 
+       url('FZCYSJW.ttf')  format('truetype'), 
+       url('FZCYSJW.svg#FZCYSJW') format('svg'); 
   font-style: normal;
   font-weight: normal;
   unicode-range: U+201c, U+201d;
